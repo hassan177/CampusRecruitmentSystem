@@ -1,0 +1,48 @@
+.custom-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-login {
+    display: flex;
+    justify-content: center;
+}
+
+h3.ui.header {
+    margin-top: 10px !important;
+}
+
+.ui.image {
+    width: 110px !important;
+}
+
+h2.ui.header {
+    margin-top: 10px;
+}
+
+.ui.form {
+    display: flex;
+    flex-direction: column;
+    padding: 44px; 
+    background: whitesmoke;
+}
+
+.ui.button {
+    margin-left: 4px;
+}
+
+.ui.button {
+    background: #f2d061 !important;
+}
