@@ -27,7 +27,7 @@ body {
 .nav a {
     display: block;
     padding: 20px 30px;
-    font-size: 25px;
+    font-size: 17px;
     text-decoration: none;
     color: #ccc;
 }
@@ -35,21 +35,43 @@ body {
     color: #fff;
     transition: 0.4s;
 }
-.nav .close {
-    position: absolute;
-    top: 0;
-    right: 22px;
-    margin-left: 50px;
-    font-size: 30px;
-}
 
 .slide a {
     color: #000;
     font-size: 30px;
 }
 #content {
-    padding: 20px;
     transition: margin-left 0.7s;
     overflow: hidden;
-    width: 100%;
+    margin-left: 250px;
+}
+
+#menu {
+    width: 250px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 15px 0 15px;   
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-right img {
+    border-radius: 30px;
+    margin-right: 6px;
+}
+
+.body {
+    margin-left: 13px;
+}
+
+.nav i {
+    margin-right: 10px;
 }
